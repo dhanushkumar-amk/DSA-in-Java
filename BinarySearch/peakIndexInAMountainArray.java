@@ -1,8 +1,10 @@
+package BinarySearch;
 // sorted array apply binary search
+
 // https://leetcode.com/problems/peak-index-in-a-mountain-array/description/ 
 
 // leetCode 852
-
+// the same answer for leetCode 162
 public class peakIndexInAMountainArray {
     public static void main(String[] args) {
 
