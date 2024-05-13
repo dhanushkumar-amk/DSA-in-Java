@@ -2,9 +2,11 @@ public class MaximumElement {
 
     public static void main(String[] args) {
         int n[] = { 2, 3, 4, 85, 6, 7, 8 };
-        System.out.println(MaximumElementOfArray(n));
+        System.out.println(MaximumElementOfArray1(n));
 
     }
+
+    // Optimal solution
 
     public static int MaximumElementOfArray(int[] n) {
         int largestNumber = n[0];
@@ -16,4 +18,5 @@ public class MaximumElement {
         }
         return largestNumber;
     }
+
 }
