@@ -1,3 +1,5 @@
+package Arrays;
+
 public class MissingNumbers2 {
     public static void main(String[] args) {
         long[] arr = { 3, 0, 1, 5, 2, 4, 8, 7, 9 };

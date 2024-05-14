@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -17,7 +19,7 @@ public class twoSum {
                 int arr[] = { hm.get(RequireNumber), i };
                 return arr;
             } else {
-                // nums[i] => hashmap number and  i => is a index Number
+                // nums[i] => hashmap number and i => is a index Number
                 hm.put(nums[i], i);
             }
         }

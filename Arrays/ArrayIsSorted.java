@@ -1,3 +1,4 @@
+package Arrays;
 
 public class ArrayIsSorted {
     public static void main(String[] args) {
