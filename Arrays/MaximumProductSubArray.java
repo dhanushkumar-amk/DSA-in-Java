@@ -1,3 +1,5 @@
+package Arrays;
+
 public class MaximumProductSubArray {
     public static void main(String[] args) {
         int[] nums = { 1, 2, -3, 0, -4, -5, 7 };
