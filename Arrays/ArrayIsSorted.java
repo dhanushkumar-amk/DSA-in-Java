@@ -9,10 +9,10 @@ public class ArrayIsSorted {
     public static boolean SortedArray(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] >= arr[i - 1]) {
-
-            } else
                 return false;
+            } else
+                return true;
         }
-        return true;
+        return false;
     }
 }
